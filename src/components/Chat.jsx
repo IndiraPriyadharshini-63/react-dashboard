@@ -24,7 +24,7 @@ const Chat = () => {
         {
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer OPENAI_API_KEY`,
+            Authorization: `Bearer react-dashboard`,
           },
         }
       );
