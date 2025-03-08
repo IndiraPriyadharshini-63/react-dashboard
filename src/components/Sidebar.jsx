@@ -16,7 +16,7 @@ const Sidebar = () => {
           href="#"
           className="flex items-center space-x-2 hover:text-gray-300 transition-colors duration-200"
         >
-          <FiMessageCircle /> <span>AI Chat</span>
+          <FiMessageCircle /> <span>Chat</span>
         </a>
         <a
           href="#"
