@@ -19,8 +19,6 @@ jobs:
       # - name: Build Project
       #   run: npm run build
 
-      # - name: Install Vercel CLI
-      #   run: npm install -g vercel
       - name: Set up Docker
         uses: docker/setup-buildx-action@v1
 
@@ -30,6 +28,9 @@ jobs:
           docker tag ai-chat-app indirapriyadharshini63/ai-chat-app:latest
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           docker push indirapriyadharshini63/ai-chat-app:latest
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
 
       - name: Deploy to Vercel
         run: vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
