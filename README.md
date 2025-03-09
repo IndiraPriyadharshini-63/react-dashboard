@@ -2,7 +2,7 @@
 
 This is a React-based Dashboard application that provides a user-friendly interface for visualizing and managing data efficiently. The project follows best practices for modern web development, including React, Docker, CI/CD with GitHub Actions, and deployment to Vercel.
 
-# Features
+## Features
 
 - Interactive dashboard UI built with React & Tailwind CSS
 
@@ -18,7 +18,7 @@ This is a React-based Dashboard application that provides a user-friendly interf
 
 - Deployed on Vercel for seamless hosting
 
-# Tech Stack
+## Tech Stack
 
 - **Frontend:** React, Tailwind CSS
 
@@ -28,7 +28,7 @@ This is a React-based Dashboard application that provides a user-friendly interf
 
 - **Deployment:** Vercel
 
-# Setup & Installation
+## Setup & Installation
 
 Clone the Repository
 
@@ -51,7 +51,7 @@ npm run dev
 
 The app will be available at http://localhost:5173.
 
-# Docker Usage
+## Docker Usage
 
 Build the Docker Image
 
@@ -65,7 +65,7 @@ Run the Container
 docker run -p 3000:80 react-dashboard
 ```
 
-# CI/CD Pipeline
+## CI/CD Pipeline
 
 This project includes GitHub Actions to automate:
 
@@ -73,7 +73,7 @@ This project includes GitHub Actions to automate:
 
 - Deploying to Vercel
 
-# Deployment
+## Deployment
 
 To deploy the app on Vercel, run:
 
